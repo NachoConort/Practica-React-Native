@@ -1,17 +1,6 @@
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
+import PracticaAsyncStorage from './src/components/PracticaAsyncStorage';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-    </View>
-  );
+  return <PracticaAsyncStorage/>
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
